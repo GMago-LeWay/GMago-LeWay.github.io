@@ -71,6 +71,30 @@ redirect_from:
     gap: 0.65rem;
   }
 
+  .pub-group {
+    margin-top: 0.85rem;
+    border: 1px solid var(--global-border-color);
+    border-radius: 10px;
+    background: var(--global-bg-color);
+    overflow: hidden;
+  }
+
+  .pub-group summary {
+    cursor: pointer;
+    padding: 0.75rem 0.9rem;
+    color: var(--global-text-color);
+    font-weight: 700;
+    list-style-position: inside;
+  }
+
+  .pub-group[open] summary {
+    border-bottom: 1px solid var(--global-border-color);
+  }
+
+  .pub-group .pub-list {
+    padding: 0.75rem;
+  }
+
   .pub-card {
     display: grid;
     grid-template-columns: auto 1fr;
@@ -143,21 +167,30 @@ redirect_from:
 
 <section class="home-section">
   <div class="home-section-title"><i class="fas fa-newspaper" aria-hidden="true"></i><span>Publications</span></div>
-  <div class="pub-list">
-    <div class="pub-card"><span class="pub-tag">ICSME 2026, CCF-B</span><div><div class="pub-title">SWE-Ext: Scaling and Extending Augmented Data for Mid-Training of Repository-Level Coding Tasks</div><div class="pub-authors"><strong>Wei Li</strong>, X. Zhang, S. Wei, Y. Gao, Z. Guo, W. Luo, F. Song, Y. Huang, and H. Wang.</div></div></div>
-    <div class="pub-card"><span class="pub-tag">ACL 2025, CCF-A</span><div><div class="pub-title">FEA-Bench: A Benchmark for Evaluating Repository-Level Code Generation for Feature Implementation</div><div class="pub-authors"><strong>Wei Li</strong>, X. Zhang, Z. Guo, S. Mao, W. Luo, G. Peng, Y. Huang, H. Wang, and S. Li.</div></div></div>
-    <div class="pub-card"><span class="pub-tag">NAACL 2025, CCF-B</span><div><div class="pub-title">Explanation based In-Context Demonstrations Retrieval for Multilingual Grammatical Error Correction</div><div class="pub-authors"><strong>Wei Li</strong>, W. Luo, G. Peng, and H. Wang.</div></div></div>
-    <div class="pub-card"><span class="pub-tag">ACL 2024, CCF-A</span><div><div class="pub-title">Detection-Correction Structure via General Language Model for Grammatical Error Correction</div><div class="pub-authors"><strong>Wei Li</strong> and H. Wang.</div></div></div>
-    <div class="pub-card"><span class="pub-tag">ACM MM 2021, CCF-A</span><div><div class="pub-title">Transformer-based Feature Reconstruction Network for Robust Multimodal Sentiment Analysis</div><div class="pub-authors">Z. Yuan* and <strong>Wei Li</strong>*, H. Xu, and W. Yu.</div></div></div>
-    <div class="pub-card"><span class="pub-tag">ICML 2026, CCF-A</span><div><div class="pub-title">Measuring and Mitigating Post-hoc Rationalization in Reverse Chain-of-Thought Generation</div><div class="pub-authors">G. Peng, Z. Chen, W. Luo, Y. Wen, <strong>Wei Li</strong>, R. Feng, R. Le, C. Yang, Z. An, et al.</div></div></div>
-    <div class="pub-card"><span class="pub-tag">ACL 2026, CCF-A</span><div><div class="pub-title">Two Pathways to Truthfulness: On the Intrinsic Encoding of LLM Hallucinations</div><div class="pub-authors">W. Luo, G. Peng, <strong>Wei Li</strong>, S. Wei, F. Song, L. Wang, N. Yang, X. Zhang, J. Jin, et al.</div></div></div>
-    <div class="pub-card"><span class="pub-tag">NeurIPS 2025, CCF-A</span><div><div class="pub-title">Time: A Multi-level Benchmark for Temporal Reasoning of LLMs in Real-world Scenarios</div><div class="pub-authors">S. Wei, <strong>Wei Li</strong>, F. Song, W. Luo, T. Zhuang, H. Tan, Z. Guo, and H. Wang.</div></div></div>
-    <div class="pub-card"><span class="pub-tag">arXiv:2510.09535</span><div><div class="pub-title">Mitigating Overthinking through Reasoning Shaping</div><div class="pub-authors">F. Song, S. Wei, B. Gao, Y. Wang, W. Luo, <strong>Wei Li</strong>, L. Yao, W. Xiong, L. Chen, et al.</div></div></div>
-    <div class="pub-card"><span class="pub-tag">ACL 2025, CCF-A</span><div><div class="pub-title">Odysseus Navigates the Sirens' Song: Dynamic Focus Decoding for Factual and Diverse Open-ended Text Generation</div><div class="pub-authors">W. Luo, F. Song, <strong>Wei Li</strong>, G. Peng, S. Wei, and H. Wang.</div></div></div>
-    <div class="pub-card"><span class="pub-tag">ACL 2025, CCF-A</span><div><div class="pub-title">Learn to Memorize: Scalable Continual Learning in Semiparametric Models with Mixture-of-Neighbors Induction Memory</div><div class="pub-authors">G. Peng, T. Ge, W. Luo, <strong>Wei Li</strong>, and H. Wang.</div></div></div>
-    <div class="pub-card"><span class="pub-tag">ACL 2025 Findings</span><div><div class="pub-title">Encode Errors: Representational Retrieval of In-Context Demonstrations for Multilingual Grammatical Error Correction</div><div class="pub-authors">G. Peng, <strong>Wei Li</strong>, W. Luo, and H. Wang.</div></div></div>
-    <div class="pub-card"><span class="pub-tag">arXiv:2406.07070</span><div><div class="pub-title">Halludial: A Large-scale Benchmark for Automatic Dialogue-level Hallucination Evaluation</div><div class="pub-authors">W. Luo, T. Shen, <strong>Wei Li</strong>, G. Peng, R. Xuan, H. Wang, and X. Yang.</div></div></div>
-  </div>
+  <details class="pub-group" open>
+    <summary>First-author Publications</summary>
+    <div class="pub-list">
+      <div class="pub-card"><span class="pub-tag">ICSME 2026, CCF-B</span><div><div class="pub-title">SWE-Ext: Scaling and Extending Augmented Data for Mid-Training of Repository-Level Coding Tasks</div><div class="pub-authors"><strong>Wei Li</strong>, X. Zhang, S. Wei, Y. Gao, Z. Guo, W. Luo, F. Song, Y. Huang, and H. Wang.</div></div></div>
+      <div class="pub-card"><span class="pub-tag">ACL 2025, CCF-A</span><div><div class="pub-title">FEA-Bench: A Benchmark for Evaluating Repository-Level Code Generation for Feature Implementation</div><div class="pub-authors"><strong>Wei Li</strong>, X. Zhang, Z. Guo, S. Mao, W. Luo, G. Peng, Y. Huang, H. Wang, and S. Li.</div></div></div>
+      <div class="pub-card"><span class="pub-tag">NAACL 2025, CCF-B</span><div><div class="pub-title">Explanation based In-Context Demonstrations Retrieval for Multilingual Grammatical Error Correction</div><div class="pub-authors"><strong>Wei Li</strong>, W. Luo, G. Peng, and H. Wang.</div></div></div>
+      <div class="pub-card"><span class="pub-tag">ACL 2024, CCF-A</span><div><div class="pub-title">Detection-Correction Structure via General Language Model for Grammatical Error Correction</div><div class="pub-authors"><strong>Wei Li</strong> and H. Wang.</div></div></div>
+      <div class="pub-card"><span class="pub-tag">ACM MM 2021, CCF-A</span><div><div class="pub-title">Transformer-based Feature Reconstruction Network for Robust Multimodal Sentiment Analysis</div><div class="pub-authors">Z. Yuan* and <strong>Wei Li</strong>*, H. Xu, and W. Yu.</div></div></div>
+    </div>
+  </details>
+
+  <details class="pub-group">
+    <summary>Co-author Publications</summary>
+    <div class="pub-list">
+      <div class="pub-card"><span class="pub-tag">ICML 2026, CCF-A</span><div><div class="pub-title">Measuring and Mitigating Post-hoc Rationalization in Reverse Chain-of-Thought Generation</div><div class="pub-authors">G. Peng, Z. Chen, W. Luo, Y. Wen, <strong>Wei Li</strong>, R. Feng, R. Le, C. Yang, Z. An, et al.</div></div></div>
+      <div class="pub-card"><span class="pub-tag">ACL 2026, CCF-A</span><div><div class="pub-title">Two Pathways to Truthfulness: On the Intrinsic Encoding of LLM Hallucinations</div><div class="pub-authors">W. Luo, G. Peng, <strong>Wei Li</strong>, S. Wei, F. Song, L. Wang, N. Yang, X. Zhang, J. Jin, et al.</div></div></div>
+      <div class="pub-card"><span class="pub-tag">NeurIPS 2025, CCF-A</span><div><div class="pub-title">Time: A Multi-level Benchmark for Temporal Reasoning of LLMs in Real-world Scenarios</div><div class="pub-authors">S. Wei, <strong>Wei Li</strong>, F. Song, W. Luo, T. Zhuang, H. Tan, Z. Guo, and H. Wang.</div></div></div>
+      <div class="pub-card"><span class="pub-tag">arXiv:2510.09535</span><div><div class="pub-title">Mitigating Overthinking through Reasoning Shaping</div><div class="pub-authors">F. Song, S. Wei, B. Gao, Y. Wang, W. Luo, <strong>Wei Li</strong>, L. Yao, W. Xiong, L. Chen, et al.</div></div></div>
+      <div class="pub-card"><span class="pub-tag">ACL 2025, CCF-A</span><div><div class="pub-title">Odysseus Navigates the Sirens' Song: Dynamic Focus Decoding for Factual and Diverse Open-ended Text Generation</div><div class="pub-authors">W. Luo, F. Song, <strong>Wei Li</strong>, G. Peng, S. Wei, and H. Wang.</div></div></div>
+      <div class="pub-card"><span class="pub-tag">ACL 2025, CCF-A</span><div><div class="pub-title">Learn to Memorize: Scalable Continual Learning in Semiparametric Models with Mixture-of-Neighbors Induction Memory</div><div class="pub-authors">G. Peng, T. Ge, W. Luo, <strong>Wei Li</strong>, and H. Wang.</div></div></div>
+      <div class="pub-card"><span class="pub-tag">ACL 2025 Findings</span><div><div class="pub-title">Encode Errors: Representational Retrieval of In-Context Demonstrations for Multilingual Grammatical Error Correction</div><div class="pub-authors">G. Peng, <strong>Wei Li</strong>, W. Luo, and H. Wang.</div></div></div>
+      <div class="pub-card"><span class="pub-tag">arXiv:2406.07070</span><div><div class="pub-title">Halludial: A Large-scale Benchmark for Automatic Dialogue-level Hallucination Evaluation</div><div class="pub-authors">W. Luo, T. Shen, <strong>Wei Li</strong>, G. Peng, R. Xuan, H. Wang, and X. Yang.</div></div></div>
+    </div>
+  </details>
 </section>
 
 <section class="home-section">
