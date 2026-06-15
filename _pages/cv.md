@@ -16,7 +16,7 @@ Education
 * Master's student in Computer Science, School of Computer Science, Peking University, Jul 2022 - Jun 2025
 * B.A. in Economics, second bachelor's degree, School of Economics and Management, Tsinghua University, Sep 2019 - Jul 2022
 * B.E. in Automation, Department of Automation, Tsinghua University, May 2019 - Jul 2022
-* Undergraduate study before major declaration, Tsinghua University, Sep 2017 - May 2019
+* Mechanical Engineering broad category, Tsinghua University, Sep 2017 - May 2019
 
 Research Experience
 ======

@@ -26,7 +26,7 @@ My research focuses on Coding Agents, especially learning to solve difficult pro
   B.E. in Automation, May 2019 - Jul 2022
 
 - **Tsinghua University**  
-  Undergraduate study before major declaration, Sep 2017 - May 2019
+  Mechanical Engineering broad category, Sep 2017 - May 2019
 
 ## Research Experience
 
