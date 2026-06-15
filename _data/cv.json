@@ -53,17 +53,8 @@
       "institution": "Peking University",
       "area": "Computer Science",
       "studyType": "Ph.D. student",
-      "startDate": "2025-06",
+      "startDate": "2022-08",
       "endDate": "2027-07",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "Peking University",
-      "area": "Computer Science",
-      "studyType": "Master's student",
-      "startDate": "2022-07",
-      "endDate": "2025-06",
       "gpa": null,
       "courses": []
     },
@@ -119,6 +110,7 @@
       "name": "Coding Agents",
       "keywords": [
         "Repository-level coding",
+        "Agent for multimedia",
         "Multimodal Coding Agents",
         "Data for software engineering"
       ]
@@ -127,8 +119,11 @@
       "name": "Personal interests",
       "keywords": [
         "Languages",
+        "Linguistics",
         "Photography",
-        "Tennis"
+        "Videography",
+        "Tennis",
+        "Cycling"
       ]
     }
   ],

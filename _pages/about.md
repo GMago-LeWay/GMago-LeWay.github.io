@@ -66,6 +66,33 @@ redirect_from:
     line-height: 1.45;
   }
 
+  .interest-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.85rem;
+  }
+
+  .interest-card {
+    padding: 0.9rem;
+    border: 1px solid var(--global-border-color);
+    border-radius: 10px;
+    background: var(--global-bg-color);
+  }
+
+  .interest-card-title {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    margin-bottom: 0.45rem;
+    color: var(--global-link-color);
+    font-weight: 700;
+  }
+
+  .interest-card p {
+    margin: 0;
+    line-height: 1.45;
+  }
+
   .pub-list {
     display: grid;
     gap: 0.65rem;
@@ -133,7 +160,8 @@ redirect_from:
 
   @media (max-width: 640px) {
     .home-card,
-    .pub-card {
+    .pub-card,
+    .interest-grid {
       grid-template-columns: 1fr;
       gap: 0.35rem;
     }
@@ -151,8 +179,7 @@ redirect_from:
 
 <section class="home-section">
   <div class="home-section-title"><i class="fas fa-graduation-cap" aria-hidden="true"></i><span>Education</span></div>
-  <div class="home-card"><div class="home-date">2025.06 - 2027.07</div><div class="home-detail"><strong>Peking University</strong>, School of Computer Science, Ph.D. student in Computer Science</div></div>
-  <div class="home-card"><div class="home-date">2022.07 - 2025.06</div><div class="home-detail"><strong>Peking University</strong>, School of Computer Science, Master's student in Computer Science</div></div>
+  <div class="home-card"><div class="home-date">2022.08 - 2027.07</div><div class="home-detail"><strong>Peking University</strong>, School of Computer Science, Ph.D. student in Computer Science</div></div>
   <div class="home-card"><div class="home-date">2019.09 - 2022.07</div><div class="home-detail"><strong>Tsinghua University</strong>, School of Economics and Management, B.A. in Economics, second bachelor's degree</div></div>
   <div class="home-card"><div class="home-date">2019.05 - 2022.07</div><div class="home-detail"><strong>Tsinghua University</strong>, Department of Automation, B.E. in Automation</div></div>
   <div class="home-card"><div class="home-date">2017.09 - 2019.05</div><div class="home-detail"><strong>Tsinghua University</strong>, Mechanical Engineering broad category</div></div>
@@ -195,5 +222,22 @@ redirect_from:
 
 <section class="home-section">
   <div class="home-section-title"><i class="fas fa-heart" aria-hidden="true"></i><span>Interests</span></div>
-  <p>Outside research, I enjoy languages, photography, and tennis. In addition to Chinese and English, I have intermediate-to-advanced proficiency in Japanese (JLPT N2) and Korean (TOPIK Level 5). I have also explored French, German, Portuguese, Italian, Arabic, and Russian.</p>
+  <div class="interest-grid">
+    <div class="interest-card">
+      <div class="interest-card-title"><i class="fas fa-microchip" aria-hidden="true"></i><span>Technical</span></div>
+      <p>Agent for multimedia.</p>
+    </div>
+    <div class="interest-card">
+      <div class="interest-card-title"><i class="fas fa-language" aria-hidden="true"></i><span>Languages</span></div>
+      <p>Chinese, English, Japanese (JLPT N2), Korean (TOPIK Level 5), linguistics, and experience learning French, German, Portuguese, Italian, Arabic, and Russian.</p>
+    </div>
+    <div class="interest-card">
+      <div class="interest-card-title"><i class="fas fa-camera" aria-hidden="true"></i><span>Photography & Videography</span></div>
+      <p>Photography, videography, and visual storytelling.</p>
+    </div>
+    <div class="interest-card">
+      <div class="interest-card-title"><i class="fas fa-person-running" aria-hidden="true"></i><span>Sports</span></div>
+      <p>Tennis, cycling, and related outdoor activities.</p>
+    </div>
+  </div>
 </section>
