@@ -5,6 +5,6 @@ category: conferences
 first_author: false
 permalink: /publication/2025-07-01-encode-errors
 date: 2025-07-01
-venue: "Findings of the Association for Computational Linguistics (ACL 2025 Findings)"
-citation: "G. Peng, <strong>Wei Li</strong>, W. Luo, and H. Wang. (2025). &quot;Encode Errors: Representational Retrieval of In-Context Demonstrations for Multilingual Grammatical Error Correction.&quot; <i>Findings of the Association for Computational Linguistics (ACL 2025 Findings)</i>, 21166-21180."
+venue: "Findings of the Association for Computational Linguistics (<strong>ACL 2025 Findings</strong>)"
+citation: "G. Peng, <strong>Wei Li</strong>, W. Luo, and H. Wang. (2025). &quot;Encode Errors: Representational Retrieval of In-Context Demonstrations for Multilingual Grammatical Error Correction.&quot; <i>Findings of the Association for Computational Linguistics (<strong>ACL 2025 Findings</strong>)</i>, 21166-21180."
 ---

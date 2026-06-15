@@ -26,11 +26,11 @@ author:
   avatar           : "profile.png"
   name             : "Wei Li"
   pronouns         : # example: "she/her"  
-  bio              : "Ph.D. Student, Peking University"
+  bio              : "Ph.D. student at Peking University. Research interest: Coding Agents."
   location         : "Beijing, China"
   employer         : "Peking University"
   uri              : "https://GMago-LeWay.github.io"
-  email            : 
+  email            : "weili22@stu.pku.edu.cn"
 
   # Academic websites
   academia         : # URL
