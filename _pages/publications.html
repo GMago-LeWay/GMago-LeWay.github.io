@@ -11,6 +11,14 @@ author_profile: true
 
 {% include base_path %}
 
+<style>
+  .publication-authors {
+    margin-top: 0.15rem;
+    font-size: 1rem;
+    line-height: 1.45;
+  }
+</style>
+
 {% assign publications_by_date = site.publications | sort: "date" | reverse %}
 
 <h2>First-author Publications</h2><hr />

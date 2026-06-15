@@ -18,7 +18,7 @@ Education
 * 2019.05 - 2022.07: B.E. in Automation, Department of Automation, Tsinghua University
 * 2017.09 - 2019.05: Mechanical Engineering broad category, Tsinghua University
 
-Research Experience
+Internship Experience
 ======
 
 * 2025.11 - Present: Research Intern, ByteDance Seed

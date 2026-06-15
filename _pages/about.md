@@ -159,7 +159,7 @@ redirect_from:
 </section>
 
 <section class="home-section">
-  <div class="home-section-title"><i class="fas fa-flask" aria-hidden="true"></i><span>Research Experience</span></div>
+  <div class="home-section-title"><i class="fas fa-briefcase" aria-hidden="true"></i><span>Internship Experience</span></div>
   <div class="home-card"><div class="home-date">2025.11 - Present</div><div class="home-detail"><strong>ByteDance Seed</strong>, Research Intern, Data for software engineering (SWE)</div></div>
   <div class="home-card"><div class="home-date">2024.09 - 2025.09</div><div class="home-detail"><strong>Microsoft Research Asia</strong>, Research Intern, Repository-level coding</div></div>
   <div class="home-card"><div class="home-date">2021.07 - 2021.09</div><div class="home-detail"><strong>MoonShot Team, Recurrent AI</strong>, Research Intern, zero-shot learning and prompt tuning</div></div>
