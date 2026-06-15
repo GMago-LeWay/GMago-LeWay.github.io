@@ -11,54 +11,42 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
 
-Work experience
+* Ph.D. student in Computer Science, School of Computer Science, Peking University, Jun 2025 - Jul 2027
+* Master's student in Computer Science, School of Computer Science, Peking University, Jul 2022 - Jun 2025
+* B.A. in Economics, second bachelor's degree, School of Economics and Management, Tsinghua University, Sep 2019 - Jul 2022
+* B.E. in Automation, Department of Automation, Tsinghua University, May 2019 - Jul 2022
+* Undergraduate study before major declaration, Tsinghua University, Sep 2017 - May 2019
+
+Research Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Nov 2025 - Present: Research Intern, ByteDance Seed
+  * Data for software engineering (SWE).
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Sep 2024 - Sep 2025: Research Intern, Microsoft Research Asia
+  * Repository-level coding.
+
+* Jul 2021 - Sep 2021: Research Intern, MoonShot Team, Recurrent AI
+  * Zero-shot learning and prompt tuning.
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
+
+* Five first-author papers, including three CCF-A papers and two CCF-B papers.
+
+Research Interests
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
+
+* Coding Agents
+* Repository-level coding
+* Multimodal Coding Agents
+* Data for software engineering
+
+Languages and Interests
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
+* Chinese and English
+* Japanese (JLPT N2) and Korean (TOPIK Level 5)
+* Experience learning French, German, Portuguese, Italian, Arabic, and Russian
+* Photography and tennis
